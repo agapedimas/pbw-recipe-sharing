@@ -10,11 +10,11 @@ CREATE TABLE IF NOT EXISTS account (
     role VARCHAR(5) NOT NULL CHECK (role IN ('user', 'admin'))
 );
 
-CREATE INDEX IF NOT EXISTS idx_users_name
-    ON users(name);
+CREATE INDEX IF NOT EXISTS idx_account_name
+    ON account(name);
 
-CREATE INDEX IF NOT EXISTS idx_users_email
-    ON users(email);
+CREATE INDEX IF NOT EXISTS idx_account_email
+    ON account(email);
 
-CREATE INDEX IF NOT EXISTS idx_users_role
-    ON users(role);
+CREATE INDEX IF NOT EXISTS idx_account_role
+    ON account(role);
