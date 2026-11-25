@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui_light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui_semilight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 350;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui_semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui_bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui_black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/segoeui_italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Segoe MDL2 Assets";
+    src: url("../fonts/segoe_mdl2_assets.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: block;
+}
+
+:root {
+    --font-primary: "Segoe UI", sans-serif;
+    --font-icon: "Segoe MDL2 Assets", sans-serif;
+}
+
+body {
+    font-family: var(--font-primary);
+}
+
+.icon {
+    font-family: var(--font-icon);
+    font-style: normal;
+    font-weight: normal;
+}
